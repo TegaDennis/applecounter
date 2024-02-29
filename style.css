@@ -1,0 +1,65 @@
+body{
+  background-image: url(1709209589434.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+ 
+}
+
+.container{
+  position: relative;
+  font-size:25px ;
+  font-family: Arial, sans-serif; 
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.giveawaytitle{
+  margin-top: 50px;
+  color: white;
+}
+.explain{
+  display: block;
+  color: yellow;
+}
+.countdown{
+display:flex ;
+justify-content :center;
+
+}
+.countdown-text span{
+display : inline-block;
+margin: 0 10px;
+font-size: 10px;
+}
+.countdown div {
+  font-size: 2rem;
+  color: yellow;
+  text-align: center;
+  margin: 0,10px;
+
+}
+.time{
+  color:rgb(0, 0, 0); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  left:220px;
+  bottom: 140px;
+  position: relative;
+}
+.time div{
+  flex-basis: 100px;
+}
+.time div p{
+  font-size: 30px;
+}
+.leftside{
+ display: flex;
+}
+
+
+
+
+
+
